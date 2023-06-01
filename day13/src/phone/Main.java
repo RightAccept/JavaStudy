@@ -7,5 +7,16 @@ package phone;
  */
 
 public class Main {
-
+	public static void main(String[] args) {
+		Phone ob1 = new Phone();
+		Phone ob2 = new Phone("홍길동", "01012345678");
+		
+		ob1.makePhone("김지훈", "01098765432");
+		
+		ob1.send(ob2);
+		
+		ob2.showmsg(ob1);
+		
+//		ob2.deletemsg(ob1);
+	}
 }
