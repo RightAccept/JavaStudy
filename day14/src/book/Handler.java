@@ -55,8 +55,8 @@ public class Handler {
 		int count = 0; // result 배열의 길이를 지정할 count 변수
 
 		for (int i = 0; i < arr.length; i++) { // arr의 전체 길이에서
-			if (arr[i] != null && (arr[i].getName().equals(keyword) || arr[i].getWriter().equals(keyword))) {
-				// arr[i]가 null이 아닐 때, 이름이 일치하거나 저자가 일치하는 것을 발견하면
+			if (arr[i] != null && (arr[i].getName().contains(keyword) || arr[i].getWriter().contains(keyword))) {
+				// arr[i]가 null이 아닐 때, 이름에 검색어를 포함하거나, 저자가 포함되면
 				count++;
 				// count를 증가시켜라. 아직 result 변수가 참조하는 배열이 없기 때문에, 배열 생성하기 위해서 count만 증가
 			}
@@ -64,8 +64,8 @@ public class Handler {
 		result = new Book[count]; // 위의 for문에서 일치한 개수만큼 result 배열 생성
 		count = 0; // 배열을 생성했으면 result의 인덱스를 지정하기 위해 count를 초기화한다.
 		for (int i = 0; i < arr.length; i++) { // arr의 길이만큼 반복하면서
-			if (arr[i] != null && (arr[i].getName().equals(keyword) || arr[i].getWriter().equals(keyword))) {
-				// arr[i]가 null이 아니면서, 이름이 일치하거나 저자가 일차하는 것을 발견하면
+			if (arr[i] != null && (arr[i].getName().contains(keyword) || arr[i].getWriter().contains(keyword))) {
+				// arr[i]가 null이 아니면서, 이름에 검색어를 포함하거나, 저자가 포함되면
 				result[count++] = arr[i]; // result의 count초기값 0에 arr[i]의 값을 넣고, count를 증가시켜라
 //				result[i] = arr[i];	// 생성한 result배열의 [i]번째에 넣어라 // 잘못 생각함. i번째에 넣어라로 하면 outofbound뜰거임
 			}
