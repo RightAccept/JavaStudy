@@ -1,8 +1,8 @@
 class Ex2_3 {
 	public static void main(String args[]) {
-		System.out.println(5+3);     // È­¸é¿¡ 5+3ÀÇ °á°úÀÎ 8ÀÌ Ãâ·ÂµÈ´Ù.
-		System.out.println(5-3);     // È­¸é¿¡ 5-3ÀÇ °á°úÀÎ 2°¡ Ãâ·ÂµÈ´Ù.
-		System.out.println(5*3);     // È­¸é¿¡ 5*3ÀÇ °á°úÀÎ 15°¡ Ãâ·ÂµÈ´Ù.
-		System.out.println(5/3);     // È­¸é¿¡ 5/3ÀÇ °á°úÀÎ 1ÀÌ Ãâ·ÂµÈ´Ù.
+		System.out.println(5+3);     // í™”ë©´ì— 5+3ì˜ ê²°ê³¼ì¸ 8ì´ ì¶œë ¥ëœë‹¤
+		System.out.println(5-3);     // í™”ë©´ì— 5-3ì˜ ê²°ê³¼ì¸ 2ê°€ ì¶œë ¥ëœë‹¤
+		System.out.println(5*3);     // í™”ë©´ì— 5*3ì˜ ê²°ê³¼ì¸ 15ê°€ ì¶œë ¥ëœë‹¤
+		System.out.println(5/3);     // í™”ë©´ì— 5/3ì˜ ê²°ê³¼ì¸ 1ì´ ì¶œë ¥ëœë‹¤
 	}
 }

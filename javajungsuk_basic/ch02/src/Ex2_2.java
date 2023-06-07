@@ -1,7 +1,7 @@
 class Ex2_2 {
 	public static void main(String args[]) {
-		System.out.println("Hello, world");   // È­¸é¿¡ Hello, world°¡ Ãâ·ÂµÈ´Ù.
-		System.out.print("3+5=");             // È­¸é¿¡ 3+5=¸¦ Ãâ·ÂÇÏ°í ÁÙ¹Ù²Ş ¾ÈÇÑ´Ù.
-		System.out.println(3+5);              // È­¸é¿¡ 8ÀÌ Ãâ·ÂµÈ´Ù.
+		System.out.println("Hello, world");   // í™”ë©´ì— Hello, worldê°€ ì¶œë ¥ëœë‹¤.
+		System.out.print("3+5=");             // í™”ë©´ì— 3+5=ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ë°”ê¿ˆ ì•ˆí•œë‹¤
+		System.out.println(3+5);              // í™”ë©´ì— 8ì´ ì¶œë ¥ëœë‹¤.
 	}
 }
