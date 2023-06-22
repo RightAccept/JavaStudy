@@ -36,9 +36,9 @@ public class Ex03 {
 		btn2.onClick();
 		
 		Object[] arr = { btn1, btn2 };
-		for(Object ob : arr) {
-			ob.onClick();
-		}
+//		for(Object ob : arr) {
+//			ob.onClick();
+//		}
 		// Object 클래스에는 click() 혹은 onClick()이라는 함수가 없어서 호출 불가
 		// 개별 실행은 가능하지만, 일괄 처리는 불가능하다
 	}
